@@ -11,8 +11,8 @@ public class Main
         int y = in.nextInt();
         System.out.print("Введите Z: ");
         int z = in.nextInt();
-        int average = (x+y+z)/3;
-        System.out.printf("Среднее арифметическое для %d, %d и %d = %d \n", x, y, z, average);
+        float average = (float)(x+y+z)/3;
+        System.out.printf("Среднее арифметическое для %d, %d и %d = %.2f \n", x, y, z, average);
         if(average > 3)
         {
             System.out.print("Программа выполнена корректно");
